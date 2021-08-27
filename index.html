@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RockPaperScissors</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <!-- <section id="intro">
+        <article>
+            <p>let's play</p>
+            <h1>ROCK<br>PAPER<br>SCISSORS</h1>
+            <input type="button" value="let's go" id="button" onclick="letsGo()">
+        </article>
+    </section> -->
+    <section id="game">
+    <h1>Rock Paper Scissors</h1>
+        <article>
+            <h2>How many rounds you think you can guess the number?</h2>
+            <div id="container">
+                <form action="">
+                    <div>
+                        <input type="radio" name="rounds" id="five" onchange="getRounds()" checked>
+                        <label for="four">5</label>
+                        <input type="radio" name="rounds" id="ten" onchange="getRounds()">
+                        <label for="five">10</label>
+                    </div>
+                    <div>
+                        <input type="radio" name="rounds" id="fifteen" onchange="getRounds()">
+                        <label for="six">15</label>
+                        <input type="radio" name="rounds" id="twenty" onchange="getRounds()">
+                        <label for="custom">20</label>
+                    </div>
+                </form>
+            </div>
+            <div id="rounds-counter">
+                <span id="round">0</span>/<span id="round-total">4</span>
+            </div>
+        </article>
+    </section>
+
+    <script src="assets/js/main.js"></script>
+</body>
+</html>

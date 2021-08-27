@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:100,300,400,500,700");
+
+
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    height: 100vh;
+    background: #24272e;
+    font-family: "Roboto", sans-serif;
+    color: #fff;
+    text-align: center;
+}
+#intro{
+    background-color: #24272e;
+    padding-top: 200px;
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+}
+#intro article{
+    height: 100vh;
+    width: 100vw;
+}
+#game{
+    padding-top: 100px;
+}
+#game article{
+    width: 400px;
+    border:2px solid #fff;
+    padding: 20px;
+    margin: 100px auto 40px;
+}
+
+#intro p{
+    font-size: 30px;
+}
+#intro h1{
+    font-size: 60px;
+}
